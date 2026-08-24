@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Kas - Aplikasi Pencatat Keuangan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            max-width: 800px;
+            padding: 50px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        
+        .description {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+        
+        .features {
+            text-align: left;
+            margin: 30px 0;
+            display: inline-block;
+        }
+        
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .features li {
+            padding: 10px 0;
+            font-size: 1.05em;
+            color: #555;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .features li:last-child {
+            border-bottom: none;
+        }
+        
+        .features li:before {
+            content: "✓ ";
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .info {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #eee;
+            color: #888;
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Buku Kas</h1>
+        <p class="description">
+            Aplikasi pencatat saldo, arus kas masuk & keluar, serta ekspor laporan bulanan Excel/CSV.
+        </p>
+        
+        <div class="features">
+            <ul>
+                <li>Pencatat saldo real-time</li>
+                <li>Tracking arus kas masuk & keluar</li>
+                <li>Laporan bulanan otomatis</li>
+                <li>Ekspor ke Excel/CSV</li>
+                <li>Interface yang user-friendly</li>
+            </ul>
+        </div>
+        
+        <div class="info">
+            <p>Dibuat dengan ❤️ menggunakan Kotlin</p>
+            <p><a href="https://github.com/shn15/Financial-records-" style="color: #667eea; text-decoration: none;">Kunjungi Repository →</a></p>
+        </div>
+    </div>
+</body>
+</html>
